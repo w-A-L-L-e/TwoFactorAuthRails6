@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'activemodel', '~> 4.0', '<= 6.0.4'
   s.add_dependency 'adamantium', '~> 0.2'
   s.add_dependency 'virtus', '~> 1.0'
 
@@ -23,5 +22,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "devise", '~> 3.3', '< 6'
   s.add_development_dependency "minitest-rails", '~> 2.1'
   s.add_development_dependency "pry", '~> 0.10'
+  # s.add_dependency 'activemodel', '~> 4.0', '<= 6.0.4'
   # s.add_development_dependency "sqlite3", '~> 1.3', '< 2'
 end
